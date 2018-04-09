@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>VS HomePage</title>
+  <link rel="stylesheet" href="css/first.css">
+  <link rel="shortcut icon" href="http://www.votresite.com/favicon.ico">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <script type="text/javascript" src="jquery/dist/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Encode+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+<body>
+  <header id="header">
+    <nav>
+      <ul id="nav" class="nav">
+        <li><a class="fa fa-globe" href="index.html" style="background-color:black;">HOME</a></li>
+        <li><a class="fa fa-globe" href="comingsoon.html" style="background-color:black;">COMING SOON</a></li>
+        <li class="dropdown">
+          <a href="action.html" class="fa fa-eye" data-toggle="dropdown">MOVIES <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="action.html" style="font-family:serif;">ACTION, ADVENTURE</a></li>
+            <li><a href="comedy.html" style="font-family:serif;">COMEDY</a></li>
+            <li><a href="fantastic.html" style="font-family:serif;">SCI-FI, FANTASTIC</a></li>
+            <li><a href="crime.html" style="font-family:serif;">CRIME, DRAMA</a></li>
+          </ul>
+        </li>
+        <li><a class="fa fa-star" href="actors.html" style="background-color:black;">ACTORS</a></li>
+        <li><a class="fa fa-tv" href="trailer.html" style="background-color:black;">TRAILERS</a></li>
+      </ul>
+      <!-- end #nav -->
+
+    </nav>
+    <!-- end #nav-wrap -->
+    <div class="container">
+      <div class="search">
+        <div id="fetch">
+          <input type="text" placeholder="enter movie title here" id="term" />
+          <button id="search" style="color:skyblue;">Find</button>
+        </div>
+        <div id="poster">
+        </div>
+      </div>
+    </div>
+    <footer>
+
+      <div class="row">
+
+        <div class="twelve columns">
+
+          <ul class="social-links">
+            <li><a href="https://www.facebook.com" onclick="window.open(this.href); return false;"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://gostream.is/" onclick="window.open(this.href); return false;"><i class="fa fa-film"></i></a></li>
+            <li><a href="http://www.imdb.com/" onclick="window.open(this.href); return false;"><i class="fa fa-imdb"></i></a></li>
+            <li><a href="https://www.instagram.com/" onclick="window.open(this.href); return false;"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://twitter.com/?lang=en" onclick="window.open(this.href); return false;"><i class="fa fa-twitter"></i></a></li>
+          </ul>
+
+          <ul class="copyright">
+            <li>Copyright 2017</li>
+          </ul>
+
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End-->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
