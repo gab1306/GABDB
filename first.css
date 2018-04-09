@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+html{
+  overflow-x: hidden;
+  
+}
+
+body {
+ overflow-x:hidden;
+  font-family: 'Lato';
+  background-image: url('http://www.hdfever.fr/wp-content/uploads/2009/07/Pellicule.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+header nav {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  background: black;
+  height: 55px;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  color: white;
+  font-size: 20px;
+}
+
+#poster {
+  cursor: pointer;
+}
+
+header nav ul li {
+  cursor: pointer;
+  flex: 1;
+  text-align: center;
+  line-height: 1.9;
+  border-top: solid 2px transparent;
+  
+}
+
+header nav ul li:hover {
+  border-top-color: lightskyblue;
+  color: lightskyblue;
+}
+
+header nav ul li .fa {
+  color: lightskyblue !important;
+}
+
+header nav ul li h6 {
+  font-size: .65em;
+}
+
+#fp-nav ul li a span {
+  color: white;
+}
+
+
+.img-responsive {
+  width: 90vw;
+  max-width:500px;
+}
+
+h1 {
+  font-family: 'Lobster';
+  font-size: 4em;
+  color: black;
+  transform: rotate(-10deg);
+}
+
+.alert {
+  margin-top: 10px;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: 100vh;
+  overflow:hidden;
+}
+
+.search {
+  flex: 1;
+  text-align: center;
+  padding: 245px;
+}
+
+button {
+  background-color: black;
+  border: 0;
+  color: white;
+  font-size: 2em;
+  padding: 10px;
+  margin-left: 0;
+  font-family: 'Lobster';
+}
+
+input[type=text] {
+  background: rgba(255, 255, 255, 0.5);
+  outline: none;
+  border: 3px solid black;
+  color: black;
+  font-family: 'Lato';
+  font-size: 2em;
+  padding: 8px;
+  margin-right: 0;
+  text-align:center;
+}
+
+
+::-webkit-input-placeholder {
+  color: black;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: black;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: black;
+}
+
+:-ms-input-placeholder {
+  color: black;
+}
+
+#poster {
+  margin-top: 20px;
+  max-width: 60%;
+  display: inline-block;
+}
+
+#poster p {
+  font-size: 2em;
+  color: black;
+}
+
+input:focus {
+  outline: none;
+}
+
+.alert {
+  background-color: rgba(0, 0, 0, 0.95);
+  display: inline;
+  padding: 10px;
+  color: white;
+}
+
+
+footer {
+   padding-top: 48px;
+   margin-bottom: 0px;
+   color: #303030;
+   font-size: 14px;
+   text-align: center;
+   position: relative;
+   background-color: black;
+}
+
+footer a, footer a:visited { color: #525252; }
+footer a:hover, footer a:focus { color: #fff; }
+
+/* copyright */
+footer .copyright {
+    margin: 0;
+    padding: 0;
+ }
+footer .copyright li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    color:skyblue;
+    line-height: 24px;
+    font-size: 20px;
+    font-family: initial;
+}
+.ie footer .copyright li {
+   display: inline;
+}
+footer .copyright li:before {
+    content: "\2022";
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #095153;
+}
+footer .copyright  li:first-child:before {
+    display: none;
+}
+
+/* social links */
+footer .social-links {
+   margin: 18px 0 30px 0;
+   padding: 0;
+   font-size: 30px;
+}
+footer .social-links li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-left: 42px;
+    color: #F06000;
+}
+
+footer .social-links li:first-child { margin-left: 0; }
+
+/* Go To Top Button */
+#go-top {
+	position: absolute;
+	top: -24px;
+   left: 50%;
+   margin-left: -30px;
+}
+#go-top a {
+	text-decoration: none;
+	border: 0 none;
+	display: block;
+	width: 60px;
+	height: 60px;
+	background-color: #525252;
+
+	-webkit-transition: all 0.2s ease-in-out;
+   -moz-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   -ms-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
+
+   color: #fff;
+   font-size: 21px;
+   line-height: 60px;
+ 	border-radius: 100%;
+}
+#go-top a:hover { background-color: #0F9095; }
